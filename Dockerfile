@@ -1,6 +1,6 @@
 #
 #   Build using:    docker build -t nextjs-docker -f Dockerfile .
-#   Run using:      docker run -p 80:3000 -t nextjs-docker
+#   Run using:      docker run -p 3000:3000 -t nextjs-docker
 #
 FROM node:10.13-alpine
 
@@ -28,5 +28,8 @@ COPY pages ./pages
 
 # Build the project
 RUN yarn build
+
+# Expose server port
+EXPOSE 3000
 
 CMD [ "yarn", "start" ]
