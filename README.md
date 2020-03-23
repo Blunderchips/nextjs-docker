@@ -2,6 +2,9 @@
 
 > Dockerized Next.js example app
 
+![Docker Image CI](https://github.com/Blunderchips/nextjs-docker/workflows/Docker%20Image%20CI/badge.svg)
+![Node.js CI using yarn](https://github.com/Blunderchips/nextjs-docker/workflows/Node.js%20CI%20using%20yarn/badge.svg)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
